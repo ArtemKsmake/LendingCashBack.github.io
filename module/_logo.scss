@@ -1,0 +1,39 @@
+
+// .section-invitation__logo-wrap{
+//   padding: 2% 0 12% 8%;
+$maxWidth:220px;
+// }
+.logo{
+  max-width: $maxWidth;
+  width:100%;
+
+
+
+  @media (max-width:1800px) {
+    max-width: $maxWidth*.95;
+  }
+  @media (max-width:1600px) {
+    max-width: $maxWidth*.9;
+  }
+  @media (max-width:1400px) {
+    max-width:  $maxWidth*.8;
+  }
+  @media (max-width:1300px) {
+    max-width:  $maxWidth*.7;
+  }
+  @media (max-width:1100px) {
+    max-width:  $maxWidth*.6;
+  }
+  @media (max-width:1000px) {
+    max-width:  $maxWidth*.85;
+  }
+  @media (max-width:775px) {
+    max-width:  $maxWidth*.8;
+  }
+  @media (max-width:560px) {
+    max-width:  $maxWidth*.75;
+  }
+  @media (max-width:410px) {
+    max-width:  $maxWidth*.7;
+  }
+}

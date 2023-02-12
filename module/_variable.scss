@@ -1,0 +1,47 @@
+// Text color
+$colorTextBlack:#151515;
+$colorTextWhite:#FFFFFF;
+
+//Font family
+$family1:Monserate;
+
+//Font weight
+ $weight1:700;
+ $weight2:800;
+ $weight3:400;
+ $weight4:600;
+
+
+ //Font size
+
+ $size1:123px;
+ $size2:35px;
+ $size3:40px;
+ $size4:96px;
+ $size5:26px;
+ $size6:15px;
+ $size7:60px;
+ $size8:31px;
+ $size9:48px;
+
+//
+
+
+$widthCircle:82px;
+$heightCircle:82px;
+$lineHeightCircle:82px;
+
+$paddingBnt:66px;
+
+ @mixin fontStyle($size,$color, $lineHeight){
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:$size ;
+  color: $color;
+  line-height: $lineHeight;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
