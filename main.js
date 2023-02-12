@@ -51,3 +51,9 @@ document.addEventListener('scroll',  ()=> {
  
 });
 
+
+window.addEventListener('resize', () => {
+  if (document.documentElement.clientWidth== 775) {
+   location.reload() 
+  }
+})
