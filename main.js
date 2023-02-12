@@ -57,3 +57,7 @@ window.addEventListener('resize', () => {
    location.reload() 
   }
 })
+
+window.addEventListener("orientationchange", function() {
+  location.reload() 
+}, false);
