@@ -1028,7 +1028,8 @@ picture {
 @media (max-width: 775px) {
   .section-steps__bg-ball-3 {
     width: 35%;
-    top: -300%;
+    top: auto;
+    bottom: -300%;
     left: -10%;
   }
 }
@@ -1036,7 +1037,7 @@ picture {
 @media (max-width: 560px) {
   .section-steps__bg-ball-3 {
     width: 45%;
-    top: -400%;
+    bottom: -400%;
     left: -15%;
   }
 }
@@ -1044,11 +1045,10 @@ picture {
 @media (max-width: 420px) {
   .section-steps__bg-ball-3 {
     width: 45%;
-    top: -150%;
+    bottom: -90%;
     left: -15%;
   }
 }
-
 .section-steps__bg-ball-4 {
   bottom: 17%;
   left: 15%;
