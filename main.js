@@ -1,10 +1,10 @@
 var btnVisible = document.querySelector('.btn-1');
-console.log(btnVisible);
+
 
 btnVisible.addEventListener('click', () => {
   let rullBlock = document.querySelector("#rullHiden")
   rullBlock.classList.toggle("visible")
-  console.log(!rullBlock.classList.contains('.visible'))
+ 
   if (  !rullBlock.classList.contains('.visible')) {
     document.querySelector('.section-rull').scrollIntoView({
     behavior: 'smooth',
@@ -31,14 +31,14 @@ document.addEventListener('scroll',  ()=> {
 
   // document.querySelector('.showScroll-1').style = `top:${+(window.getComputedStyle(document.querySelector('.showScroll-1'),null).top.slice(0,-2)) +1}px`
   
-  console.log(document.documentElement.clientWidth)
+  
 
   if (document.documentElement.clientWidth <= 775) {
-    positionBall = ["20", "50", "-170", "47", "0"]
+    positionBall = ["20", "50", "-500", "47", "0"]
 
     document.querySelector('.showScroll-1').style=`top:${ +positionBall[0] + pageYOffset/50}%`
     // document.querySelector('.showScroll-2').style=`top:${ +positionBall[1] + pageYOffset/5}%`
-    document.querySelector('.showScroll-3').style=`top:${ +positionBall[2] + pageYOffset/10}%`
+    document.querySelector('.showScroll-3').style=`bottom:${ +positionBall[2] + pageYOffset/10}%`
     document.querySelector('.showScroll-4').style=`bottom:${ +positionBall[3] - pageYOffset/140}%`
     document.querySelector('.showScroll-5').style=`bottom:${ +positionBall[4] + pageYOffset/200}%`
   } else {
@@ -50,4 +50,4 @@ document.addEventListener('scroll',  ()=> {
   }
  
 });
-console.log(linkBtn)
+
