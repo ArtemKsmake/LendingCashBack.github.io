@@ -9,6 +9,7 @@ html, body {
   margin: 0 auto;
   min-width: 320px;
   height: 100%;
+  background-color: #151515;
 }
 
 a {
