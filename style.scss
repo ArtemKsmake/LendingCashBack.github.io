@@ -261,7 +261,7 @@
     @media (max-width:775px) {
       padding: 0;
       position: absolute;
-      bottom: 30%;
+      bottom: 20%;
       left: 50%;
       transform: translateX(-50%);
 
@@ -413,6 +413,7 @@
     font-size:$size4;
     font-weight:700;
     color: $colorTextWhite;
+    padding: 0 10%;
 
 
     @media (max-width:1800px) {
