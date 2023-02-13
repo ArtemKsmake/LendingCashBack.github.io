@@ -1,4 +1,5 @@
 //Обнуляющие и стандартизирующие  стили
+@import "variable.scss";
 
 html , body {
   padding: 0;
@@ -11,6 +12,7 @@ html , body {
   // overflow-x: hidden;
   min-width: 320px;
   height: 100%;
+  background-color: $colorTextBlack;
 }
 a{
   text-decoration: none;
